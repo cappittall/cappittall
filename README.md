@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @cappittall
 - 👀 I’m interested in ... Python, AI Researchs, TensorFlow, Yolo, JS, Flutter, Django, FastApi, Polymer, HTML, Web3, Dapp, Cryptocurrency
-- 🌱 I’m currently learning ... Blockchain Technologies, Web3, Metaverse
+- 🌱 I’m currently learning ... Blockchain Technologies, Large Language models + LangChain, Object Detection + LLM
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ... @cappittall at all social platforms :) 
 
