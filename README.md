@@ -1,6 +1,6 @@
-# 👋 Hi, I’m @cappittall
+## 👋 Hi, I’m @cappittall
 
-##  👀 👀 I’m interested in ... 
+#  👀 I’m interested in ... 
 
 - Python, 
 - AI Researchs, TensorFlow, PyTorch, Yolo, LLM
