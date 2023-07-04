@@ -1,17 +1,16 @@
 # 👋 Hi, I’m Hakan
 
-##  👀 I’m interested in ... 
+##  👀 I’m in ... 
 
 - Python, 
-- AI Researchs, TensorFlow, PyTorch, Yolo, LLM
+- Chat Gpt, LangChain, LLM,  AI Researchs, TensorFlow, PyTorch, Yolo
 - JS, Flutter, 
 - Django, FastApi, Polymer
 
 ##  🌱 I’m currently learning ... 
 
-Large Language models + LangChain, Object Detection + LLM, Blockchain Technologies, 
+Object Detection with LLM, Blockchain Technologies, 
 
-## 💞️ I’m looking to collaborate on ...
 
 ## 📫 How to reach me ... 
 
