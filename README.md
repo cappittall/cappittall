@@ -1,22 +1,46 @@
 # 👋 Hi, I’m Hakan
 
-##  👀 I’m in ... 
+This is a personal website showcasing the skills, experience, and projects of Hakan Çetin, a seasoned freelancer specializing in Python, FastAPI, and web development.
 
-- Python, 
-- Chat Gpt, LangChain, LLM,  AI Researchs, TensorFlow, PyTorch, Yolo
-- JS, Flutter, 
-- Django, FastApi, Polymer
+## About Me
 
-##  🌱 I’m currently learning ... 
+I am Hakan Çetin, a freelancer based in Mudanya, Bursa, Turkey. With over 10 years of experience in software development and project management, I specialize in AI, chatbots, NLP, image generation, API development, web scraping, data analysis, mobile app development, database management, and server administration.
 
-Object Detection with LLM, Blockchain Technologies, 
+## Skills
 
+- Python Development
+- FastAPI
+- HTML, CSS, JavaScript
+- AI and Machine Learning
+- API Development
+- Data Analysis
+- Cloud Infrastructure
+- Mobile App Development
 
-## 📫 How to reach me ... 
+## Experience
 
-- @cappittall at all social platforms :) 
+- Self-employed software developer since November 2015
+- CEO of Aura Yachts from October 2009 to 2015
+- General Manager at Net Kim Kimya Sanayi Ltd. from September 1996 to November 2009
+- General Manager at T-Tur Turizm And Travel Agency from November 1989 to April 1996
+- Software developer at Nartur Turizm Travel Agency from May 1988 to November 1989
 
-<!---
-cappittall/cappittall is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+## Projects
+
+- AI Surveillance and Safety Systems
+- Real-Time Image and Signal Processing
+- Conversational AI and Language Models
+- Healthcare Data Analysis and Visualization Tool
+- Customizable Image Generation Service
+
+## Contact
+
+- Email: netcat16@gmail.com
+- WhatsApp: +90 532 602 3450
+- GitHub: [github.com/cappittall](https://github.com/cappittall)
+- LinkedIn: [linkedin.com/in/cappittall](https://www.linkedin.com/in/cappittall/)
+- Stack Overflow: [stackoverflow.com/users/5347610/cappittall](https://stackoverflow.com/users/5347610/cappittall)
+
+---
+
+&copy; 2024 Hakan Çetin. All rights reserved.
