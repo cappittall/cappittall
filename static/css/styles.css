@@ -19,8 +19,8 @@ header {
 
 .profile-container {
     position: absolute;
-    top: 50%;
-    right: 2rem;
+    top:40px;
+    right: 5px;
     transform: translateY(-50%);
 }
 
