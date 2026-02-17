@@ -37,6 +37,11 @@ yarn.lock
 *.sketch
 *.fig
 
+# Stock/source images (keep only optimized versions)
+assets/images/png-stock/
+*.orig.png
+*.original.jpg
+
 # Backup files
 *.bak
 *.backup
