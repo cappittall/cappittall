@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hakan Çetin - Full Stack Developer specializing in Python, AI/ML, FastAPI, and modern web technologies. 10+ years of experience.">
+    <meta name="keywords" content="Hakan Çetin, Python Developer, FastAPI, AI, Machine Learning, Full Stack, Freelancer">
+    <meta name="author" content="Hakan Çetin">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://cappittall.github.io/">
+    <meta property="og:title" content="Hakan Çetin - Full Stack Python Developer & AI Specialist">
+    <meta property="og:description" content="10+ years experience in Python, AI/ML, FastAPI, and modern web development">
+    <meta property="og:image" content="./assets/images/og-image.png">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://cappittall.github.io/">
+    <meta property="twitter:title" content="Hakan Çetin - Full Stack Python Developer">
+    <meta property="twitter:description" content="10+ years experience in Python, AI/ML, FastAPI">
+    <meta property="twitter:image" content="./assets/images/og-image.png">
+    
+    <title>Hakan Çetin | Full Stack Developer & AI Specialist</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="./assets/images/favicon.png">
+</head>
+<body>
+    <!-- Theme Toggle -->
+    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <span class="logo-text">HC</span>
+            </a>
+            
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#experience" class="nav-link">Experience</a></li>
+                    <li><a href="#github" class="nav-link">GitHub Stats</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+            
+            <button class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <!-- AI-generated abstract tech background -->
+            <div class="hero-bg-image" style="background-image: url('./assets/images/hero-bg.jpg');"></div>
+            <div class="hero-overlay"></div>
+            <div class="particles" id="particles"></div>
+        </div>
+        
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="greeting">Hi, I'm</span>
+                    <span class="name">Hakan Çetin</span>
+                </h1>
+                <div class="hero-subtitle">
+                    <span class="typing-text"></span>
+                </div>
+                <p class="hero-description">
+                    Full Stack Developer specialized in Python, AI/ML, and modern web technologies. 
+                    Building scalable solutions with 10+ years of experience.
+                </p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn btn-primary">
+                        <span>View My Work</span>
+                        <i class="fas fa-arrow-down"></i>
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <span>Get In Touch</span>
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+                <div class="hero-social">
+                    <a href="https://github.com/cappittall" target="_blank" rel="noopener" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/cappittall/" target="_blank" rel="noopener" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://stackoverflow.com/users/5347610/cappittall" target="_blank" rel="noopener" aria-label="Stack Overflow">
+                        <i class="fab fa-stack-overflow"></i>
+                    </a>
+                    <a href="mailto:netcat16@gmail.com" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-card">
+                    <img src="./assets/images/profile.jpg" alt="Hakan Çetin" class="profile-img">
+                    <div class="profile-badge">
+                        <i class="fas fa-check"></i>
+                        <span>Available for work</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <span>Scroll Down</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Passionate developer crafting innovative solutions</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="./assets/images/about-workspace.jpg" alt="Workspace" class="workspace-img">
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="10">0</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="68">0</span>
+                            <span class="stat-label">Projects Completed</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="50">0</span>
+                            <span class="stat-label">Happy Clients</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-text">
+                    <h3>Full Stack Developer & AI Specialist</h3>
+                    <p>
+                        Based in Mudanya, Bursa, Turkey, I'm a seasoned freelance developer with a passion for creating 
+                        intelligent, scalable solutions. With over a decade of experience, I specialize in Python development, 
+                        FastAPI, and cutting-edge AI/ML technologies.
+                    </p>
+                    <p>
+                        My journey in software development began in 1988, and since then, I've worked on diverse projects 
+                        ranging from enterprise solutions to innovative AI-powered applications. I'm fluent in Turkish and 
+                        English, with working proficiency in Russian and French.
+                    </p>
+                    
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-rocket"></i>
+                            <div>
+                                <h4>Innovation Driven</h4>
+                                <p>Leveraging latest technologies to solve complex problems</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-code"></i>
+                            <div>
+                                <h4>Clean Code Advocate</h4>
+                                <p>Writing maintainable, scalable, and efficient code</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-users"></i>
+                            <div>
+                                <h4>Client Focused</h4>
+                                <p>Delivering solutions that exceed expectations</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-links">
+                        <a href="./assets/resume.pdf" class="btn btn-outline" download>
+                            <i class="fas fa-download"></i>
+                            <span>Download CV</span>
+                        </a>
+                        <a href="#contact" class="btn btn-primary">
+                            <span>Let's Talk</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skills & Expertise</h2>
+                <p class="section-subtitle">Technologies I work with</p>
+            </div>
+            
+            <div class="skills-grid">
+                <!-- Languages -->
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-code"></i>
+                        <h3>Languages</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item" data-level="95">
+                            <div class="skill-info">
+                                <img src="./assets/images/icons/python.svg" alt="Python" class="skill-icon">
+                                <span class="skill-name">Python</span>
+                                <span class="skill-percentage">95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-level="85">
+                            <div class="skill-info">
+                                <img src="./assets/images/icons/javascript.svg" alt="JavaScript" class="skill-icon">
+                                <span class="skill-name">JavaScript</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-level="80">
+                            <div class="skill-info">
+                                <img src="./assets/images/icons/html.svg" alt="HTML" class="skill-icon">
+                                <span class="skill-name">HTML/CSS</span>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-level="75">
+                            <div class="skill-info">
+                                <img src="./assets/images/icons/shell.svg" alt="Shell" class="skill-icon">
+                                <span class="skill-name">Shell</span>
+                                <span class="skill-percentage">75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Frameworks & Libraries -->
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-cubes"></i>
+                        <h3>Frameworks</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item" data-level="90">
+                            <div class="skill-info">
+                                <img src="./assets/images/icons/fastapi.svg" alt="FastAPI" class="skill-icon">
+                                <span class="skill-name">FastAPI</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-level="85">
+                            <div class="skill-info">
+                                <img src="./assets/images/icons/flask.svg" alt="Flask" class="skill-icon">
+                                <span class="skill-name">Flask</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-level="80">
+                            <div class="skill-info">
+                                <img src="./assets/images/icons/flutter.svg" alt="Flutter" class="skill-icon">
+                                <span class="skill-name">Flutter</span>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-level="75">
+                            <div class="skill-info">
+                                <img src="./assets/images/icons/react.svg" alt="React" class="skill-icon">
+                                <span class="skill-name">React</span>
+                                <span class="skill-percentage">75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- AI/ML & Data -->
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-brain"></i>
+                        <h3>AI & Machine Learning</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item" data-level="90">
+                            <div class="skill-info">
+                                <img src="./assets/images/icons/openai.svg" alt="OpenAI" class="skill-icon">
+                                <span class="skill-name">OpenAI / GPT</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-level="85">
+                            <div class="skill-info">
+                                <img src="./assets/images/icons/tensorflow.svg" alt="TensorFlow" class="skill-icon">
+                                <span class="skill-name">TensorFlow</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-level="80">
+                            <div class="skill-info">
+                                <img src="./assets/images/icons/opencv.svg" alt="OpenCV" class="skill-icon">
+                                <span class="skill-name">OpenCV</span>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-level="75">
+                            <div class="skill-info">
+                                <img src="./assets/images/icons/huggingface.svg" alt="Hugging Face" class="skill-icon">
+                                <span class="skill-name">Hugging Face</span>
+                                <span class="skill-percentage">75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tools & Cloud -->
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-tools"></i>
+                        <h3>Tools & Cloud</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item" data-level="90">
+                            <div class="skill-info">
+                                <img src="./assets/images/icons/docker.svg" alt="Docker" class="skill-icon">
+                                <span class="skill-name">Docker</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-level="85">
+                            <div class="skill-info">
+                                <img src="./assets/images/icons/aws.svg" alt="AWS" class="skill-icon">
+                                <span class="skill-name">AWS</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-level="85">
+                            <div class="skill-info">
+                                <img src="./assets/images/icons/git.svg" alt="Git" class="skill-icon">
+                                <span class="skill-name">Git</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-level="80">
+                            <div class="skill-info">
+                                <img src="./assets/images/icons/postgresql.svg" alt="PostgreSQL" class="skill-icon">
+                                <span class="skill-name">PostgreSQL</span>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">Some of my recent work</p>
+            </div>
+            
+            <!-- Project Filters -->
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="ai">AI & ML</button>
+                <button class="filter-btn" data-filter="web">Web Apps</button>
+                <button class="filter-btn" data-filter="automation">Automation</button>
+                <button class="filter-btn" data-filter="cv">Computer Vision</button>
+            </div>
+            
+            <!-- Projects Grid -->
+            <div class="projects-grid" id="projects-grid">
+                <!-- Projects will be loaded dynamically via JavaScript -->
+            </div>
+            
+            <div class="view-all-projects">
+                <a href="#github" class="btn btn-outline">
+                    <span>View All on GitHub</span>
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section experience-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Experience</h2>
+                <p class="section-subtitle">My professional journey</p>
+            </div>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2015 - Present</div>
+                    <div class="timeline-content">
+                        <h3>Freelance Software Developer</h3>
+                        <h4>Self-Employed</h4>
+                        <p>
+                            Specializing in Python development, AI/ML solutions, and full-stack web applications. 
+                            Working with clients worldwide to deliver innovative, scalable solutions.
+                        </p>
+                        <div class="timeline-tags">
+                            <span>Python</span>
+                            <span>FastAPI</span>
+                            <span>AI/ML</span>
+                            <span>Cloud</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2009 - Present</div>
+                    <div class="timeline-content">
+                        <h3>CEO</h3>
+                        <h4>Aura Yachts</h4>
+                        <p>
+                            Leading luxury yacht sales and services company. Managing operations, business development, 
+                            and digital transformation initiatives.
+                        </p>
+                        <div class="timeline-tags">
+                            <span>Leadership</span>
+                            <span>Business Development</span>
+                            <span>Operations</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2018 - Present</div>
+                    <div class="timeline-content">
+                        <h3>Founder</h3>
+                        <h4>VisitsApp</h4>
+                        <p>
+                            Created and launched a comprehensive visitor management platform. 
+                            Overseeing product development, technology stack, and business strategy.
+                        </p>
+                        <div class="timeline-tags">
+                            <span>Startup</span>
+                            <span>Product Development</span>
+                            <span>SaaS</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">1996 - 2009</div>
+                    <div class="timeline-content">
+                        <h3>General Manager</h3>
+                        <h4>Net Kim Kimya Sanayi Ltd.</h4>
+                        <p>
+                            Managed chemical manufacturing operations, supply chain, and business development. 
+                            Led digital transformation and process optimization initiatives.
+                        </p>
+                        <div class="timeline-tags">
+                            <span>Management</span>
+                            <span>Manufacturing</span>
+                            <span>Process Optimization</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">1988 - 1996</div>
+                    <div class="timeline-content">
+                        <h3>Software Developer & General Manager</h3>
+                        <h4>Travel & Tourism Industry</h4>
+                        <p>
+                            Started as a software developer at Nartur Turizm, progressed to General Manager at T-Tur. 
+                            Developed custom booking systems and operational software.
+                        </p>
+                        <div class="timeline-tags">
+                            <span>Software Development</span>
+                            <span>Tourism Tech</span>
+                            <span>Management</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GitHub Stats Section -->
+    <section id="github" class="section github-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">GitHub Activity</h2>
+                <p class="section-subtitle">My open source contributions</p>
+            </div>
+            
+            <div class="github-stats-grid">
+                <div class="github-stat-card">
+                    <i class="fas fa-code-branch"></i>
+                    <h3 id="total-repos">68</h3>
+                    <p>Repositories</p>
+                </div>
+                <div class="github-stat-card">
+                    <i class="fas fa-star"></i>
+                    <h3 id="total-stars">6</h3>
+                    <p>Stars Earned</p>
+                </div>
+                <div class="github-stat-card">
+                    <i class="fas fa-code-fork"></i>
+                    <h3 id="total-forks">1</h3>
+                    <p>Forks</p>
+                </div>
+                <div class="github-stat-card">
+                    <i class="fas fa-user-friends"></i>
+                    <h3 id="total-followers">3</h3>
+                    <p>Followers</p>
+                </div>
+            </div>
+            
+            <!-- Language Distribution -->
+            <div class="github-languages">
+                <h3>Most Used Languages</h3>
+                <div class="language-bars">
+                    <div class="language-bar">
+                        <div class="language-info">
+                            <span class="language-name">
+                                <span class="language-dot" style="background-color: #3572A5;"></span>
+                                Python
+                            </span>
+                            <span class="language-percent">86.8%</span>
+                        </div>
+                        <div class="language-progress">
+                            <div class="language-fill" style="width: 86.8%; background-color: #3572A5;"></div>
+                        </div>
+                    </div>
+                    <div class="language-bar">
+                        <div class="language-info">
+                            <span class="language-name">
+                                <span class="language-dot" style="background-color: #f1e05a;"></span>
+                                JavaScript
+                            </span>
+                            <span class="language-percent">39.7%</span>
+                        </div>
+                        <div class="language-progress">
+                            <div class="language-fill" style="width: 39.7%; background-color: #f1e05a;"></div>
+                        </div>
+                    </div>
+                    <div class="language-bar">
+                        <div class="language-info">
+                            <span class="language-name">
+                                <span class="language-dot" style="background-color: #e34c26;"></span>
+                                HTML
+                            </span>
+                            <span class="language-percent">61.8%</span>
+                        </div>
+                        <div class="language-progress">
+                            <div class="language-fill" style="width: 61.8%; background-color: #e34c26;"></div>
+                        </div>
+                    </div>
+                    <div class="language-bar">
+                        <div class="language-info">
+                            <span class="language-name">
+                                <span class="language-dot" style="background-color: #89e051;"></span>
+                                Shell
+                            </span>
+                            <span class="language-percent">72.1%</span>
+                        </div>
+                        <div class="language-progress">
+                            <div class="language-fill" style="width: 72.1%; background-color: #89e051;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Recent Repositories -->
+            <div class="recent-repos">
+                <h3>Recent Repositories</h3>
+                <div class="repos-list" id="repos-list">
+                    <!-- Repos will be loaded dynamically -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's work together</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's talk about your project</h3>
+                    <p>
+                        I'm always interested in hearing about new projects and opportunities. 
+                        Whether you have a question or just want to say hi, feel free to reach out!
+                    </p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:netcat16@gmail.com">netcat16@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <a href="tel:+905326023450">+90 532 602 34 50</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Mudanya, Bursa, Turkey</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="https://github.com/cappittall" target="_blank" rel="noopener" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/cappittall/" target="_blank" rel="noopener" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://stackoverflow.com/users/5347610/cappittall" target="_blank" rel="noopener" class="social-link">
+                            <i class="fab fa-stack-overflow"></i>
+                        </a>
+                        <a href="https://bionluk.com/cappittall" target="_blank" rel="noopener" class="social-link">
+                            <i class="fas fa-briefcase"></i>
+                        </a>
+                        <a href="https://www.upwork.com/freelancers/~01c9d0347e8ddc2d6a" target="_blank" rel="noopener" class="social-link">
+                            <i class="fab fa-upwork"></i>
+                        </a>
+                        <a href="https://wa.me/905326023450" target="_blank" rel="noopener" class="social-link">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required placeholder="Your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required placeholder="How can I help you?">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="6" required placeholder="Tell me about your project..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">
+                        <span>Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Hakan Çetin</h3>
+                    <p>Full Stack Developer & AI Specialist</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Projects</h4>
+                        <ul>
+                            <li><a href="https://webassistant.live" target="_blank">webassistant.live</a></li>
+                            <li><a href="https://icem.live" target="_blank">icem.live</a></li>
+                            <li><a href="https://aurayachts.com" target="_blank">aurayachts.com</a></li>
+                            <li><a href="https://github.com/cappittall" target="_blank">GitHub</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Connect</h4>
+                        <ul>
+                            <li><a href="https://linkedin.com/in/cappittall" target="_blank">LinkedIn</a></li>
+                            <li><a href="https://github.com/cappittall" target="_blank">GitHub</a></li>
+                            <li><a href="mailto:netcat16@gmail.com">Email</a></li>
+                            <li><a href="https://wa.me/905326023450" target="_blank">WhatsApp</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Hakan Çetin. All rights reserved.</p>
+                <p>Built with <i class="fas fa-heart"></i> using vanilla HTML, CSS, and JavaScript</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="./assets/js/projects-data.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>

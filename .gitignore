@@ -1,0 +1,42 @@
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS files
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+npm-debug.log*
+
+# Dependencies (if using build tools)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Build outputs (if minifying)
+*.min.css.map
+*.min.js.map
+
+# Temporary files
+*.tmp
+*.temp
+
+# Environment variables
+.env
+.env.local
+
+# Image editing files
+*.psd
+*.ai
+*.sketch
+*.fig
+
+# Backup files
+*.bak
+*.backup
