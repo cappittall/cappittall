@@ -1,334 +1,212 @@
-# 🚀 Portfolio Website - Hakan Çetin
+# 👋 Hi, I'm Hakan Çetin
 
-Modern, responsive, full-featured portfolio website showcasing my work as a Full Stack Developer and AI Specialist.
+**Full Stack Developer & AI Specialist** | Python Expert | FastAPI Enthusiast
 
-## 🌟 Features
+[![GitHub followers](https://img.shields.io/github/followers/cappittall?style=social)](https://github.com/cappittall)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/cappittall/)
+[![Email](https://img.shields.io/badge/-Email-c14438?style=flat&logo=Gmail&logoColor=white)](mailto:netcat16@gmail.com)
+[![Stack Overflow](https://img.shields.io/badge/-Stack%20Overflow-FE7A16?style=flat&logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/5347610/cappittall)
 
-- **Modern Design**: Clean, professional UI with glassmorphism effects
-- **Dark/Light Mode**: Toggle between themes
-- **Fully Responsive**: Optimized for all devices
-- **Interactive Animations**: Smooth transitions and engaging interactions
-- **GitHub Integration**: Live stats from GitHub API
-- **Project Showcase**: Filterable project gallery
-- **Contact Form**: Easy way to get in touch
-- **SEO Optimized**: Meta tags, Open Graph, and structured data
+---
+
+## 🚀 About Me
+
+I'm a seasoned freelance developer based in **Mudanya, Bursa, Turkey**, with a passion for creating intelligent, scalable solutions. With over **10+ years of experience**, I specialize in Python development, FastAPI, and cutting-edge AI/ML technologies.
+
+My journey in software development has led me to work on diverse projects ranging from enterprise solutions to innovative AI-powered applications. I'm dedicated to writing clean, maintainable code and leveraging the latest technologies to solve complex problems.
+
+### 📊 Quick Stats
+
+- 🎯 **10+ Years** of Professional Experience
+- 💼 **68+ Projects** Successfully Delivered
+- 😊 **50+ Happy Clients** Worldwide
+- 🌍 **Multilingual**: Turkish (Native), English (Fluent), Russian & French (Working Proficiency)
+
+---
+
+## 💡 What I Do
+
+### 🔧 Core Expertise
+
+- **Backend Development**: Python, FastAPI, Django, Flask
+- **AI & Machine Learning**: OpenAI GPT, LangChain, Vector Databases, RAG Systems
+- **Database Management**: PostgreSQL, Redis, SQLite
+- **Message Queue Systems**: RabbitMQ, Celery
+- **API Development**: RESTful APIs, WebSocket, Real-time Communication
+- **DevOps**: Docker, Linux System Administration, Nginx
+- **Cloud Services**: AWS, Google Cloud Platform
+- **Integration**: WhatsApp Business API, Facebook Messenger, Instagram, Telegram
+
+### 🎨 My Approach
+
+```python
+class DeveloperPhilosophy:
+    def __init__(self):
+        self.principles = {
+            'innovation': 'Leveraging latest technologies to solve complex problems',
+            'clean_code': 'Writing maintainable, scalable, and efficient code',
+            'client_focus': 'Delivering solutions that exceed expectations'
+        }
+    
+    def build_solution(self, problem):
+        return self.analyze(problem) \
+                   .design_architecture() \
+                   .implement() \
+                   .test_thoroughly() \
+                   .deploy_confidently()
+```
+
+---
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: HTML5, CSS3 (CSS Custom Properties, Grid, Flexbox)
-- **JavaScript**: Vanilla JS (ES6+, Classes, Async/Await)
-- **APIs**: GitHub REST API v3
-- **Fonts**: Google Fonts (Inter, JetBrains Mono)
-- **Icons**: Font Awesome 6
-- **Hosting**: GitHub Pages
-
-## 📁 Project Structure
-
-```
-portfolio-website/
-├── index.html                 # Main HTML file
-├── assets/
-│   ├── css/
-│   │   └── style.css         # All styles (7000+ lines)
-│   ├── js/
-│   │   ├── main.js          # Main JavaScript functionality
-│   │   └── projects-data.js  # Project data & configuration
-│   └── images/
-│       ├── hero-bg.jpg
-│       ├── profile.jpg
-│       ├── about-workspace.jpg
-│       ├── favicon.png
-│       ├── og-image.png
-│       ├── icons/            # Technology icons
-│       └── projects/         # Project screenshots
-├── AI_IMAGE_PROMPTS.md       # Guide for generating images with AI
-└── README.md                 # This file
-```
-
-## 🎨 AI Image Generation
-
-All required images can be generated using AI tools like Midjourney, DALL-E 3, or Stable Diffusion.
-
-### Required Images:
-- Hero background (1920x1080)
-- Profile photo (800x800)
-- Workspace photo (1200x800)
-- Favicon (512x512)
-- OG Image (1200x630)
-- 18 Project screenshots (700x450 each)
-
-**See `AI_IMAGE_PROMPTS.md` for detailed prompts and instructions.**
-
-## 🚀 Quick Start
-
-### 1. Clone Repository
-
-```bash
-git clone https://github.com/cappittall/portfolio-website.git
-cd portfolio-website
-```
-
-### 2. Generate Images
-
-Follow the guide in `AI_IMAGE_PROMPTS.md` to create all required images using AI tools.
-
-Or use placeholder images temporarily:
-
-```bash
-# Create placeholder images
-mkdir -p assets/images/projects assets/images/icons
-# Use any placeholder image service or create simple colored rectangles
-```
-
-### 3. Customize Content
-
-**Edit `index.html`:**
-- Update personal information
-- Modify sections as needed
-
-**Edit `assets/js/projects-data.js`:**
-- Update project list
-- Add/remove projects
-- Modify GitHub username
-
-**Edit `assets/js/main.js`:**
-- Update GitHub username in CONFIG object
-- Optionally add GitHub token for higher API rate limits
-
-### 4. Test Locally
-
-```bash
-# Using Python
-python -m http.server 8000
-
-# Using Node.js
-npx serve
-
-# Or just open index.html in browser
-```
-
-Visit: `http://localhost:8000`
-
-### 5. Deploy to GitHub Pages
-
-```bash
-# Create new repo on GitHub: portfolio-website
-git init
-git add .
-git commit -m "Initial commit - Modern portfolio website"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/portfolio-website.git
-git push -u origin main
-
-# Enable GitHub Pages
-# Go to repo Settings → Pages
-# Source: Deploy from branch "main" / root
-# Save
-```
-
-Your site will be live at: `https://YOUR_USERNAME.github.io/portfolio-website/`
-
-### 6. Custom Domain (Optional)
-
-To use custom domain (e.g., `yourname.com`):
-
-1. Create `CNAME` file in root with your domain:
-```bash
-echo "yourname.com" > CNAME
-git add CNAME
-git commit -m "Add custom domain"
-git push
-```
-
-2. Add DNS records at your domain provider:
-```
-Type: A
-Host: @
-Value: 185.199.108.153
-       185.199.109.153
-       185.199.110.153
-       185.199.111.153
-
-Type: CNAME
-Host: www
-Value: YOUR_USERNAME.github.io
-```
-
-## 🎨 Customization Guide
-
-### Colors
-
-Edit CSS variables in `assets/css/style.css`:
-
-```css
-:root {
-    --primary-color: #6366f1;      /* Main brand color */
-    --secondary-color: #ec4899;    /* Accent color */
-    --accent-color: #14b8a6;       /* Secondary accent */
-}
-```
-
-### Typography
-
-Change fonts in `index.html` (Google Fonts) and CSS:
-
-```css
-:root {
-    --font-primary: 'Inter', sans-serif;
-    --font-mono: 'JetBrains Mono', monospace;
-}
-```
-
-### Projects
-
-Edit `assets/js/projects-data.js`:
-
-```javascript
-const projects = [
-    {
-        id: 1,
-        title: "Your Project",
-        description: "Project description...",
-        image: "./assets/images/projects/your-project.jpg",
-        tags: ["Python", "AI"],
-        category: ["ai", "web"],
-        github: "https://github.com/...",
-        demo: "https://...",
-        stars: 0,
-        language: "Python"
-    },
-    // Add more projects...
-];
-```
-
-### Typing Animation
-
-Edit `assets/js/main.js`:
-
-```javascript
-const texts = [
-    'Your Title 1',
-    'Your Title 2',
-    'Your Title 3',
-];
-```
-
-## 📊 GitHub API Integration
-
-The site fetches live data from GitHub API. For better rate limits:
-
-1. Create GitHub Personal Access Token:
-   - Go to: https://github.com/settings/tokens
-   - Generate new token (classic)
-   - Select scopes: `public_repo`, `read:user`
-   - Copy token
-
-2. Add token to `assets/js/main.js`:
-
-```javascript
-const CONFIG = {
-    githubUsername: 'your-username',
-    githubToken: 'your_token_here',  // Optional but recommended
-};
-```
-
-**Note:** Don't commit tokens to public repos! Use environment variables or GitHub Secrets for production.
-
-## 🔧 Optimization
-
-### Image Optimization
-
-```bash
-# Install ImageMagick
-sudo apt install imagemagick
-
-# Optimize all JPGs
-find assets/images -name "*.jpg" -exec mogrify -quality 85 -strip {} \;
-
-# Optimize PNGs (install pngquant)
-find assets/images -name "*.png" -exec pngquant --ext .png --force {} \;
-```
-
-### Minification (Optional)
-
-For production, minify CSS and JS:
-
-```bash
-# Install minifiers
-npm install -g csso-cli terser
-
-# Minify CSS
-csso assets/css/style.css -o assets/css/style.min.css
-
-# Minify JS
-terser assets/js/main.js -o assets/js/main.min.js
-terser assets/js/projects-data.js -o assets/js/projects-data.min.js
-
-# Update index.html to use .min files
-```
-
-## 🧪 Browser Support
-
-- Chrome/Edge: Latest 2 versions
-- Firefox: Latest 2 versions
-- Safari: Latest 2 versions
-- Mobile browsers: iOS Safari, Chrome Android
-
-## 📱 Responsive Breakpoints
-
-- Desktop: 1024px+
-- Tablet: 768px - 1023px
-- Mobile: < 768px
-
-## 📄 License
-
-MIT License - feel free to use this template for your own portfolio!
-
-## 🤝 Contributing
-
-This is a personal portfolio, but suggestions are welcome:
-
-1. Fork the repo
-2. Create feature branch
-3. Commit changes
-4. Push to branch
-5. Open Pull Request
-
-## 📞 Contact
-
-**Hakan Çetin**
-- Email: netcat16@gmail.com
-- GitHub: [@cappittall](https://github.com/cappittall)
-- LinkedIn: [cappittall](https://www.linkedin.com/in/cappittall/)
-- Website: [cappittall.github.io](https://cappittall.github.io/cappittall/)
+### Languages
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![Shell](https://img.shields.io/badge/-Shell-4EAA25?style=flat&logo=gnu-bash&logoColor=white)
+![SQL](https://img.shields.io/badge/-SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
+
+### Frameworks & Libraries
+![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+![Django](https://img.shields.io/badge/-Django-092E20?style=flat&logo=django&logoColor=white)
+![Flask](https://img.shields.io/badge/-Flask-000000?style=flat&logo=flask&logoColor=white)
+![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=black)
+![Vue.js](https://img.shields.io/badge/-Vue.js-4FC08D?style=flat&logo=vue.js&logoColor=white)
+
+### AI & ML
+![OpenAI](https://img.shields.io/badge/-OpenAI-412991?style=flat&logo=openai&logoColor=white)
+![LangChain](https://img.shields.io/badge/-LangChain-121212?style=flat)
+![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
+![Scikit Learn](https://img.shields.io/badge/-Scikit%20Learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
+
+### Databases
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/-Redis-DC382D?style=flat&logo=redis&logoColor=white)
+![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
+![SQLite](https://img.shields.io/badge/-SQLite-003B57?style=flat&logo=sqlite&logoColor=white)
+
+### DevOps & Tools
+![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white)
+![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat&logo=linux&logoColor=black)
+![Nginx](https://img.shields.io/badge/-Nginx-009639?style=flat&logo=nginx&logoColor=white)
 
 ---
 
-## 🗺️ Roadmap
+## 🌟 Featured Projects
 
-- [ ] Generate all AI images
-- [x] Complete HTML structure
-- [x] Complete CSS styling
-- [x] Complete JavaScript functionality
-- [ ] Add blog section (optional)
-- [ ] Add testimonials
-- [ ] Analytics integration (Google Analytics)
-- [ ] Performance optimization
-- [ ] Accessibility audit (WCAG 2.1 AA)
-- [ ] SEO optimization
+### 🤖 AI-Powered Chatbot Platform
+Enterprise-level chatbot system with multi-channel support (WhatsApp, Facebook, Instagram, Telegram), AI-driven conversations using OpenAI GPT, and advanced features like product recommendations, order management, and customer analytics.
+
+**Tech**: Python, FastAPI, PostgreSQL, Redis, OpenAI GPT, LangChain, WhatsApp Business API
+
+### 📞 Call Center Automation
+Real-time call center solution with AI voice processing, automatic call distribution, and intelligent routing.
+
+**Tech**: Asterisk, AudioSocket, OpenAI Realtime API, Python, WebSocket
+
+### 🛒 E-commerce Integration Suite
+Multi-marketplace integration system supporting Trendyol, Hepsiburada, and other major platforms with automated order synchronization and inventory management.
+
+**Tech**: Python, FastAPI, PostgreSQL, XML/JSON APIs, RabbitMQ
+
+### 📊 Analytics Dashboard
+Real-time analytics platform for customer insights, conversation tracking, and business intelligence.
+
+**Tech**: FastAPI, PostgreSQL, Chart.js, WebSocket, Redis
 
 ---
 
-## 📚 Resources
+## 📈 GitHub Stats
 
-- [GitHub Pages Docs](https://docs.github.com/en/pages)
-- [Font Awesome Icons](https://fontawesome.com/icons)
-- [Google Fonts](https://fonts.google.com/)
-- [Midjourney](https://www.midjourney.com/) - For AI image generation
-- [TinyPNG](https://tinypng.com/) - Image compression
+<div align="center">
+  
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=cappittall&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=cappittall&layout=compact&theme=tokyonight&hide_border=true&langs_count=8)
+
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=cappittall&theme=tokyonight&hide_border=true)
+
+</div>
 
 ---
 
-**Built with ❤️ by Hakan Çetin**
+## 💼 Professional Experience
 
-_Last updated: February 17, 2026_
+**Freelance Full Stack Developer** | 2014 - Present
+- Developed 68+ successful projects across various industries
+- Specialized in Python backend development and AI integration
+- Maintained 99%+ client satisfaction rate
+- Delivered scalable solutions for startups and enterprises
+
+**Key Achievements:**
+- 🏆 Built AI-powered chatbot serving 10,000+ daily conversations
+- 🚀 Developed e-commerce platform handling $1M+ monthly transactions
+- 💡 Created innovative call center automation reducing costs by 60%
+- 🌍 Worked with clients from 15+ countries
+
+---
+
+## 🎓 Education & Certifications
+
+- **Computer Science & Engineering** - Continuous Learning & Self-Taught
+- **AI & Machine Learning** - OpenAI, Google Cloud Platform
+- **Python Expert** - 10+ years hands-on experience
+- **FastAPI Specialist** - Production-grade API development
+
+---
+
+## 📫 Let's Connect
+
+I'm always interested in new projects and opportunities. Whether you need:
+
+- **AI/ML Integration** for your existing platform
+- **Backend Development** with Python/FastAPI
+- **API Development & Integration**
+- **Chatbot Solutions** for customer engagement
+- **Technical Consultation** on your project
+
+Feel free to reach out!
+
+- 📧 **Email**: [netcat16@gmail.com](mailto:netcat16@gmail.com)
+- 💼 **LinkedIn**: [linkedin.com/in/cappittall](https://www.linkedin.com/in/cappittall/)
+- 🐙 **GitHub**: [github.com/cappittall](https://github.com/cappittall)
+- 🌐 **Portfolio**: [cappittall.github.io/cappittall](https://cappittall.github.io/cappittall/)
+- 📚 **Stack Overflow**: [stackoverflow.com/users/5347610/cappittall](https://stackoverflow.com/users/5347610/cappittall)
+
+---
+
+## 💻 Currently Working On
+
+- 🤖 Advanced AI chatbot with multi-modal capabilities
+- 📱 WhatsApp Business API integrations
+- 🎯 E-commerce marketplace automation tools
+- 🔊 Voice AI call center solutions
+
+---
+
+## 🌱 Learning & Exploring
+
+- Advanced RAG (Retrieval-Augmented Generation) techniques
+- Real-time AI voice processing
+- Multi-agent AI systems
+- Edge computing for AI applications
+
+---
+
+<div align="center">
+
+### 💬 Philosophy
+
+> "Code is like humor. When you have to explain it, it's bad." - Cory House
+
+**Building the future, one commit at a time** 🚀
+
+---
+
+![Profile Views](https://komarev.com/ghpvc/?username=cappittall&color=blueviolet&style=flat)
+
+**⭐ Star my repositories if you find them useful!**
+
+</div>
